@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WEB-CSS</title>
+        <meta charset="utf-8">
+        <style>
+          a{
+              color: black;
+              text-decoration: none;
+          }
+          .saw {
+              color:gray;
+          }
+          #active {
+              color:red;
+          }
+          h1{
+              font-size:45px;
+              text-align:center;
+              border-bottom:1px solid gray;
+              margin:0;
+              padding:20px
+          }
+          ol{
+              border-right:1px solid gray;
+              width:100px;
+              margin:0;
+              padding:20px;
+          }
+          body{
+              margin:0;
+          }
+          /*
+          h1태그 밑에 줄을 긋고 싶다면 border를 활용하면 된다.
+          만약 아래쪽에만 줄을 긋고 싶다면 border-bottom을 사용하면 된다.
+          아래 간격을 조금 줄이려면 margin값을 조금 줄이자
+          만약 가로에 줄을 긋고 싶다면 border-right를 수정한다.
+          만약에 block level element의 크기를 조금 줄이고 싶다면
+          width로 수정하면 된다.
+          body태그의 margin을 수정하면 페이지의 여백을 없앨수 있다. 
+          */
+        </style>
+    </head>
+    <body>
+        <h1 style="text-align: center;font-size: 45px">WEB</h1>
+        <ol>
+            <li><a href="1.html" class="saw">HTML</a></li>
+            <li><a href="2.html" class="saw"id="active">CSS</a></li>
+            <li><a href="3.html">JavaScript</a></li>
+            <li>para</li>
+        </ol>
+    </body>
+</html>
