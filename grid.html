@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <style>
+        /*
+            div태그는 block level element이다.
+            span태그는 inline element이다.
+            이 태그들은 의미가 없는 무색무취의 태그들이다.
+            grid-template-colums:150px 1fr;
+            은 좌우로 grid를 나눠주겠다. 
+            가로 세로 비율이 fr로 나타나게된다. 
+            1fr 2fr이라고 사용하면 1대2의 비율로 나눠지게 된다. 
+            또한 텍스트가 커짐에 따라 크기가 자동으로 커지게 된다.
+        */
+        div{
+            border:5px solid gray;
+        }
+        #grid{
+            border:5px solid pink;
+            display:grid;
+            grid-template-columns: 150px 1fr;
+        }
+        </style>
+    </head>
+    <body>
+        <div id="grid">
+            <div>NAVIFATION</div>
+            <div>ARTICLElfjsdlfjslkfjslkfjlskjflksjfslfkjslkfjslkfjs
+                sljflsdkjflskjflsjflskfjlsf
+                sflksjflksjflksjflksjflsjflskjfl
+            </div>
+        </div>
+       
+    </body>
+</html>
